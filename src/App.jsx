@@ -7,7 +7,7 @@ import Icon from './pages/icons'
 function App() {
 
   return (
-    <div className='bg-zinc-800'>
+    <div className='background'>
       <Navbar />
       <Home />
       <Icon />

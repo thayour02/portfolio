@@ -1,12 +1,13 @@
 import mongo from '../assets/jobs.png'
 import weather from '../assets/weatherApp.png'
 import logo from '../assets/logo192.png'
+import '../App.css'
 
 
 
 export default function Project() {
     return (
-        <div name="Project" className="w-full bg-zinc-500 text-white h-full mt-10">
+        <div name="Project" className="w-full background text-white h-full mt-10">
             <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="pt-2 text-4xl font-bold inline border-b-4 border-gray-400 cursor-pointer hover:scale-110 duration-300 hover:text-cyan-500 ">Portfolio</p>

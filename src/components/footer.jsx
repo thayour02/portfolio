@@ -59,7 +59,7 @@ export default function Foooter() {
         }
     ]
     return (
-        <div className="mt-10 text-white  w-full p-4 max-w-screen-2xl mx-auto xl:px-20">
+        <div className="mt-10 text-white  w-full p-4 max-w-screen-2xl mx-auto xl:px-24 px-10">
             <div className=' flex flex-col md:flex-row '>
                 <div className=''>
                     <div className='md:w-1/2 space-y-8'>

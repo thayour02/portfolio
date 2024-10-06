@@ -1,11 +1,11 @@
 import web from '../assets/web dev.png'
 import dev from '../assets/web.png'
 import sup from '../assets/sup.jpeg'
-
+import '../App.css'
 
 export default function About() {
     return (
-        <div name="About" className="my-24 md:px-14 px-4 max-w-screen-2xl mx-auto xl:px-20 mt-20">
+        <div name="About" className="background my-24 md:px-14 px-4 max-w-screen-2xl mx-auto xl:px-20 mt-20">
             <div className="flex flex-col md:flex-row justify-between items-start gap-10">
                 <div className="lg:w-1/4">
                     <h1 className="text-3xl text-purple-900 font-bold lg:w-1/2 mb-3">Are You Looking For A Proffessional To Hire?</h1>
