@@ -75,11 +75,11 @@ export default function Foooter() {
                             Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                     <div className='space-y-8 mb-10'>
-                        <input className='bg-purple-700 py-2 px-4 rounded-md focus:outline-none'
+                        <input className='bg-blue-700 py-2 px-4 rounded-md focus:outline-none'
                             type='email' id='email' placeholder='Your Email' />
                         <input type='submit'
                             value="Subscribe"
-                            className='bg-purple-300 py-2 px-4 rounded-md focus:outline-none -ml-2 cursor-pointer hover:bg-purple-900 ' />
+                            className='bg-blue-300 py-2 px-4 rounded-md focus:outline-none -ml-2 cursor-pointer hover:bg-blue-900 ' />
                     </div>
                 </div>
                 <div className='flex flex-col'>
@@ -89,9 +89,9 @@ export default function Foooter() {
                                 <h2 className="font-medium  text-white tracking-widest mb-3">
                                     {title}
                                 </h2>
-                                <div className="mb-8 flex flex-col gap-3">
+                                <div className="mb-8 flex text-white flex-col gap-3">
                                     {links.map((link, indexedDB) => (
-                                        <a href='' key={(link, indexedDB)} className="text-black font-bold" to='/'>{link}</a>
+                                        <a href='' key={(link, indexedDB)} className="font-bold" to='/'>{link}</a>
                                     ))}
                                 </div>
                             </div>
@@ -101,7 +101,7 @@ export default function Foooter() {
             </div>
 
             <div className="container px-5 items-end mx-auto">
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex  text-white items-center justify-center gap-4">
                     {
                         icons.map(({ id, child, href, style }) => (
                             <a href={href} key={id} className={`${style}`}>

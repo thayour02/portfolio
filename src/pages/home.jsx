@@ -4,10 +4,11 @@ import Project from "./project";
 import Contact from "./contact";
 import About from "./about";
 import Banner from "./banner";
-import tayo from '../assets/download.webp';
+import tayo from '../assets/ty.jpeg';
 import { useRef, useEffect } from "react";
 import '../App.css'
 import { useState } from "react";
+
 
 
 export default function Home() {
@@ -98,6 +99,8 @@ export default function Home() {
                 animate={bannerControl}
                 transition={{ duration: 0.5, delay: 0.25, type: 'tween', stiffness: 100 }}
             >
+                    <div>
+
                 <Banner
                     heading={`Hello 👋, I'm a ${text} `}
                     subheading={`I have a year experience building and designing software app.
@@ -106,6 +109,9 @@ export default function Home() {
                         React, Tailwind, Node JS and MongoDB`}
                     banner={tayo}
                 />
+          
+                </div>
+
             </motion.div>
             <motion.div
                 ref={skillsRef}

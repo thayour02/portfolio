@@ -24,7 +24,7 @@ export default function Project() {
                                     <a className="btn">Demon</a>
                                 </div>
                             </a>
-                            <a href="https://github.com/thayour02.git">
+                            <a href="https://github.com/thayour02/jobFinder-frontend">
                                 <div className="navbar-end">
                                     <a className="btn">Repo</a>
                                 </div>

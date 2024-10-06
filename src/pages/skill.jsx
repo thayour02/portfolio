@@ -1,12 +1,4 @@
-import html from "../assets/html.png"
-import css from "../assets/css.png"
-import tailwind from "../assets/tailwind.png"
-import node from "../assets/node.png"
-import js from "../assets/js.png"
-import react from "../assets/logo192.png"
-import mongo from "../assets/mongo.png"
-import sql from "../assets/sql.png"
-import git from "../assets/github.png"
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React from "react";
@@ -24,7 +16,7 @@ const skill = [
             90%
         </div>,
         title: "HTML ",
-        style: "shadow-orange-500 "
+        style: "hover:shadow-orange-500 hover:scale-105 transition-all duration-200 "
     },
     {
         id: 2,
@@ -35,7 +27,7 @@ const skill = [
             90%
         </div>,
         title: "CSS",
-        style: "shadow-blue-500"
+        style: "hover:shadow-blue-500 hover:transition ease-in duration-3000 hover:scale-105 transition-all duration-200 "
     },
     {
         id: 3,
@@ -46,7 +38,7 @@ const skill = [
             70%
         </div>,
         title: "TAILWIND CSS",
-        style: "shadow-cyan-400"
+        style: "hover:shadow-cyan-400 hover:scale-105 transition-all duration-200 "
     },
     {
         id: 4,
@@ -57,7 +49,7 @@ const skill = [
             75%
         </div>,
         title: "NODE JS EXPRESS ",
-        style: "shadow-green-500"
+        style: "hover:shadow-green-500 hover:scale-105 transition-all duration-200 "
     },
 
     {
@@ -69,7 +61,7 @@ const skill = [
             60%
         </div>,
         title: "JAVASCRIPT",
-        style: "shadow-yellow-500"
+        style: "hover:shadow-yellow-500"
     },
     {
         id: 6,
@@ -80,7 +72,7 @@ const skill = [
             70%
         </div>,
         title: "REACT",
-        style: "shadow-blue-500"
+        style: "hover:shadow-blue- hover:scale-105 transition-all duration-200 "
     },
     {
         id: 7,
@@ -91,7 +83,7 @@ const skill = [
             80%
         </div>,
         title: "MONGODB",
-        style: "shadow-green-500"
+        style: "hover:shadow-green-500 hover:scale-105 transition-all duration-200 "
     },
 
     {
@@ -103,7 +95,7 @@ const skill = [
             80%
         </div>,
         title: "GITHUB 80%",
-        style: "shadow-blue-400"
+        style: "hover:shadow-blue-400 hover:scale-105 transition-all duration-200 "
     }
 ]
 
@@ -187,12 +179,12 @@ export default function Skill() {
 
                 </div>
 
-                <div className="text-center items-center flex justify-center">
+                <div className="text-center items-center flex   justify-center">
                     <Slider ref={slider} {...settings}
-                        className="overflow-hidden mt-10  text-center  h-full bg-base-100 w-[350px] shadow-xl relative ">
+                        className="overflow-hidden mt-10  text-center  ">
                         {
                             skill.map(({ id, src, title, style }) => (
-                                <div className={`hover:shadow-xl transition-2 duration-300 ${style}`} key={id}>
+                                <div className={`hover:shadow-xl  transition-2 duration-300 ${style}`} key={id}>
                                     <p >{src}</p>
                                     <p className="font-semibold text-zinc-700 text-xl  mt-5 ">{title}</p>
                                 </div>
@@ -200,8 +192,6 @@ export default function Skill() {
                         }
                     </Slider>
                 </div>
-
-
             </div>
 
         </div>
