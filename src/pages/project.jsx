@@ -47,13 +47,13 @@ export default function Project() {
                     <p className="pt-2 text-4xl font-bold inline border-b-4 border-gray-400 cursor-pointer hover:scale-110 duration-300 hover:text-cyan-500 ">Portfolio</p>
                     <p className="pt-2 text-2xl">Check out some of my work here</p>
                 </div>
-                <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8'>
+                <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8'>
                     <div className='bg-[#f7fdfd] cursor-pointer rounded-[35px] shadow-lg p-8 items-center flex justify-center hover:-translate-y-4 transition duration-300'>
                         <div>
                             { Project.map((item, i) => 
                              (
                                 <div key={i}>
-                                <img src={item.mongo} alt="" className='h-40 w-[200px]' />
+                                <img src={item.src} alt="" className='h-40 w-[200px]' />
                                 <h5 className=' font-semibold text-zinc-700 text-xl  mt-5 mb-2 px-8'>{item.name}</h5>
                                 <div className='flex justify-between gap-4'>
                                     <a href={item.href}>
