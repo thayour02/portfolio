@@ -5,34 +5,7 @@ import recipe from '../assets/recipex.png'
 
 import '../App.css'
 
-const Project=[
-    {
-        id:1,
-        src:mongo,
-        href:"https://fluffy-cocada-7a48cc.netlify.app/",
-        href2:"https://github.com/thayour02/jobFinder-frontend"
-    },
-
-    {
-        id:2,
-        src:weather,
-        href:"https://thayourweatherapp.netlify.app/",
-        href2:"https://github.com/thayour02/weatherApp.git"
-    },
-    {
-        id:3,
-        src:logo,
-        href:"https://fluffy-cocada-7a48cc.netlify.app/",
-        href2:"https://github.com/thayour02/react-projects.git"
-    },
-    {
-        id:4,
-        src:recipe,
-        href:"https://thayourreactrecipeapp.netlify.app/",
-        href2:"https://github.com/thayour02/recipeblog-.git"
-    }
-
-]
+// 
 
 export default function Project() {
     return (
